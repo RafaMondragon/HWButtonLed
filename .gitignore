@@ -1,0 +1,8 @@
+*.exe
+*.out
+*.o
+makefile
+*.map
+*.ls
+*.launch
+Debug

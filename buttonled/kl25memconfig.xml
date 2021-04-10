@@ -1,0 +1,6 @@
+ <chip>
+  <memory id='Flash' type='Flash' is_ro='true' can_program='true'></memory>
+  <memory id='RAM' type='RAM'></memory>
+   <memoryInstance id='PROGRAM_FLASH' derived_from='Flash' location='0x0' size='0x20000' driver='FTFA_1K.cfx'    />
+   <memoryInstance id='SRAM' derived_from='RAM' location='0x1ffff000' size='0x4000'     />
+ </chip>
